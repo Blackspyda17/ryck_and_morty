@@ -11,15 +11,10 @@ import RickAndMortyAPI
 
 class ApolloManager {
     
-    static private var apolloClient = ApolloClient(url: URL(string: "https://rickandmortyapi.com/graphql")!)
-   
-    static func callCharacters(){
-        apolloClient.fetch(query: AllCharactersQuery(page: 0)){
-        result in
-            switch result{
-                
-            }
-        }
-    }
+    static let shared = ApolloManager()
+
+    private init() {}
+
+    private(set) lazy var apollo = ApolloClient(url: URL(string: "https://rickandmortyapi.com/graphql")!)
     
 }
