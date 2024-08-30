@@ -2,6 +2,10 @@
 
 Rick & Morty App is a [Rick & Morty](https://rickandmortyapi.com) characters catalog built as an iOS application developed using VIPER, GraphQL and adhering to modern development practices. It follows a modular architecture, implements the VIPER pattern, SwiftUI and Combine.
 
+# Snapshots
+<img width="300" width=“500” src="snapshots/snapshot_1.gif"></img>
+<img width="300" width=“500” src="snapshots/snapshot_2.gif"></img>
+
  # Technology Stack
 The application is built using cutting-edge iOS technologies, encompassing: 
 
