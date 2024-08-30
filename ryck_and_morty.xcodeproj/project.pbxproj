@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		F9F15AD72C7E78E500B37A82 /* ryck_and_mortyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F15AD62C7E78E500B37A82 /* ryck_and_mortyApp.swift */; };
-		F9F15AD92C7E78E500B37A82 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F15AD82C7E78E500B37A82 /* ContentView.swift */; };
 		F9F15ADB2C7E78E600B37A82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9F15ADA2C7E78E600B37A82 /* Assets.xcassets */; };
 		F9F15ADE2C7E78E600B37A82 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9F15ADD2C7E78E600B37A82 /* Preview Assets.xcassets */; };
 		F9F15AE82C7E78E700B37A82 /* ryck_and_mortyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F15AE72C7E78E700B37A82 /* ryck_and_mortyTests.swift */; };
@@ -22,14 +21,11 @@
 		F9F15B1A2C7F3B0400B37A82 /* ListOfCharactersInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F15B192C7F3B0400B37A82 /* ListOfCharactersInteractor.swift */; };
 		F9F15B1C2C7F3B3600B37A82 /* ListOfCharactersRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F15B1B2C7F3B3600B37A82 /* ListOfCharactersRouter.swift */; };
 		F9F15B1F2C7FC76F00B37A82 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F15B1E2C7FC76F00B37A82 /* Character.swift */; };
-		F9F15B222C7FC81700B37A82 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F15B212C7FC81700B37A82 /* Protocols.swift */; };
 		F9F15B242C80213800B37A82 /* ListOfCharactersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F15B232C80213800B37A82 /* ListOfCharactersViewModel.swift */; };
 		F9F15B272C802DA300B37A82 /* AsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F15B262C802DA300B37A82 /* AsyncImage.swift */; };
 		F9F15B292C803A3F00B37A82 /* CharactersGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F15B282C803A3F00B37A82 /* CharactersGrid.swift */; };
 		F9F15B2B2C803A6D00B37A82 /* CharacterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F15B2A2C803A6D00B37A82 /* CharacterCell.swift */; };
-		F9F15B2D2C8048A300B37A82 /* APIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F15B2C2C8048A300B37A82 /* APIResponse.swift */; };
-		F9F15B2F2C80491700B37A82 /* Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F15B2E2C80491700B37A82 /* Info.swift */; };
-		F9F15B312C81147200B37A82 /* ContentOffsetKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F15B302C81147200B37A82 /* ContentOffsetKey.swift */; };
+		F9F15B342C81B08A00B37A82 /* CharacterDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F15B332C81B08A00B37A82 /* CharacterDetailsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +48,6 @@
 /* Begin PBXFileReference section */
 		F9F15AD32C7E78E500B37A82 /* ryck_and_morty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ryck_and_morty.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9F15AD62C7E78E500B37A82 /* ryck_and_mortyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ryck_and_mortyApp.swift; sourceTree = "<group>"; };
-		F9F15AD82C7E78E500B37A82 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F9F15ADA2C7E78E600B37A82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F9F15ADD2C7E78E600B37A82 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F9F15AE32C7E78E700B37A82 /* ryck_and_mortyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ryck_and_mortyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -66,14 +61,11 @@
 		F9F15B192C7F3B0400B37A82 /* ListOfCharactersInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfCharactersInteractor.swift; sourceTree = "<group>"; };
 		F9F15B1B2C7F3B3600B37A82 /* ListOfCharactersRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfCharactersRouter.swift; sourceTree = "<group>"; };
 		F9F15B1E2C7FC76F00B37A82 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
-		F9F15B212C7FC81700B37A82 /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
 		F9F15B232C80213800B37A82 /* ListOfCharactersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfCharactersViewModel.swift; sourceTree = "<group>"; };
 		F9F15B262C802DA300B37A82 /* AsyncImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImage.swift; sourceTree = "<group>"; };
 		F9F15B282C803A3F00B37A82 /* CharactersGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersGrid.swift; sourceTree = "<group>"; };
 		F9F15B2A2C803A6D00B37A82 /* CharacterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterCell.swift; sourceTree = "<group>"; };
-		F9F15B2C2C8048A300B37A82 /* APIResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIResponse.swift; sourceTree = "<group>"; };
-		F9F15B2E2C80491700B37A82 /* Info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Info.swift; sourceTree = "<group>"; };
-		F9F15B302C81147200B37A82 /* ContentOffsetKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentOffsetKey.swift; sourceTree = "<group>"; };
+		F9F15B332C81B08A00B37A82 /* CharacterDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDetailsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,11 +119,16 @@
 		F9F15AD52C7E78E500B37A82 /* ryck_and_morty */ = {
 			isa = PBXGroup;
 			children = (
-				F9F15B202C7FC7FD00B37A82 /* Helpers */,
+				F9F15B3D2C81B21400B37A82 /* View */,
+				F9F15B3E2C81B26000B37A82 /* Interactor */,
+				F9F15B3F2C81B2FF00B37A82 /* Presenter */,
+				F9F15B402C81B38A00B37A82 /* Entities */,
+				F9F15B412C81B39D00B37A82 /* Router */,
+				F9F15B422C81B41900B37A82 /* ViewModels */,
+				F9F15B432C81B49A00B37A82 /* Functional Views */,
 				F9F15B0A2C7E857900B37A82 /* GraphQL */,
-				F9F15B092C7E828A00B37A82 /* ListOfCharacters */,
+				F9F15B202C7FC7FD00B37A82 /* Helpers */,
 				F9F15AD62C7E78E500B37A82 /* ryck_and_mortyApp.swift */,
-				F9F15AD82C7E78E500B37A82 /* ContentView.swift */,
 				F9F15ADA2C7E78E600B37A82 /* Assets.xcassets */,
 				F9F15ADC2C7E78E600B37A82 /* Preview Content */,
 			);
@@ -163,19 +160,6 @@
 			path = ryck_and_mortyUITests;
 			sourceTree = "<group>";
 		};
-		F9F15B092C7E828A00B37A82 /* ListOfCharacters */ = {
-			isa = PBXGroup;
-			children = (
-				F9F15B252C802CFB00B37A82 /* Views */,
-				F9F15B1D2C7F3B7500B37A82 /* Entities */,
-				F9F15B172C7F3AD800B37A82 /* ListOfCharactersPresenter.swift */,
-				F9F15B192C7F3B0400B37A82 /* ListOfCharactersInteractor.swift */,
-				F9F15B1B2C7F3B3600B37A82 /* ListOfCharactersRouter.swift */,
-				F9F15B232C80213800B37A82 /* ListOfCharactersViewModel.swift */,
-			);
-			path = ListOfCharacters;
-			sourceTree = "<group>";
-		};
 		F9F15B0A2C7E857900B37A82 /* GraphQL */ = {
 			isa = PBXGroup;
 			children = (
@@ -191,7 +175,40 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		F9F15B1D2C7F3B7500B37A82 /* Entities */ = {
+		F9F15B202C7FC7FD00B37A82 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				F9F15B262C802DA300B37A82 /* AsyncImage.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		F9F15B3D2C81B21400B37A82 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F9F15B152C7F3AB300B37A82 /* ListOfCharactersView.swift */,
+				F9F15B332C81B08A00B37A82 /* CharacterDetailsView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F9F15B3E2C81B26000B37A82 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				F9F15B192C7F3B0400B37A82 /* ListOfCharactersInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		F9F15B3F2C81B2FF00B37A82 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				F9F15B172C7F3AD800B37A82 /* ListOfCharactersPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		F9F15B402C81B38A00B37A82 /* Entities */ = {
 			isa = PBXGroup;
 			children = (
 				F9F15B1E2C7FC76F00B37A82 /* Character.swift */,
@@ -199,26 +216,29 @@
 			path = Entities;
 			sourceTree = "<group>";
 		};
-		F9F15B202C7FC7FD00B37A82 /* Helpers */ = {
+		F9F15B412C81B39D00B37A82 /* Router */ = {
 			isa = PBXGroup;
 			children = (
-				F9F15B212C7FC81700B37A82 /* Protocols.swift */,
-				F9F15B262C802DA300B37A82 /* AsyncImage.swift */,
-				F9F15B2C2C8048A300B37A82 /* APIResponse.swift */,
-				F9F15B2E2C80491700B37A82 /* Info.swift */,
+				F9F15B1B2C7F3B3600B37A82 /* ListOfCharactersRouter.swift */,
 			);
-			path = Helpers;
+			path = Router;
 			sourceTree = "<group>";
 		};
-		F9F15B252C802CFB00B37A82 /* Views */ = {
+		F9F15B422C81B41900B37A82 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
-				F9F15B152C7F3AB300B37A82 /* ListOfCharactersView.swift */,
+				F9F15B232C80213800B37A82 /* ListOfCharactersViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		F9F15B432C81B49A00B37A82 /* Functional Views */ = {
+			isa = PBXGroup;
+			children = (
 				F9F15B282C803A3F00B37A82 /* CharactersGrid.swift */,
 				F9F15B2A2C803A6D00B37A82 /* CharacterCell.swift */,
-				F9F15B302C81147200B37A82 /* ContentOffsetKey.swift */,
 			);
-			path = Views;
+			path = "Functional Views";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -359,19 +379,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F9F15AD92C7E78E500B37A82 /* ContentView.swift in Sources */,
 				F9F15B292C803A3F00B37A82 /* CharactersGrid.swift in Sources */,
 				F9F15B182C7F3AD800B37A82 /* ListOfCharactersPresenter.swift in Sources */,
-				F9F15B2F2C80491700B37A82 /* Info.swift in Sources */,
 				F9F15B162C7F3AB300B37A82 /* ListOfCharactersView.swift in Sources */,
-				F9F15B222C7FC81700B37A82 /* Protocols.swift in Sources */,
 				F9F15B142C7F18A400B37A82 /* ApolloManager.swift in Sources */,
 				F9F15B272C802DA300B37A82 /* AsyncImage.swift in Sources */,
-				F9F15B2D2C8048A300B37A82 /* APIResponse.swift in Sources */,
 				F9F15B1C2C7F3B3600B37A82 /* ListOfCharactersRouter.swift in Sources */,
 				F9F15B2B2C803A6D00B37A82 /* CharacterCell.swift in Sources */,
 				F9F15B1A2C7F3B0400B37A82 /* ListOfCharactersInteractor.swift in Sources */,
-				F9F15B312C81147200B37A82 /* ContentOffsetKey.swift in Sources */,
+				F9F15B342C81B08A00B37A82 /* CharacterDetailsView.swift in Sources */,
 				F9F15B242C80213800B37A82 /* ListOfCharactersViewModel.swift in Sources */,
 				F9F15AD72C7E78E500B37A82 /* ryck_and_mortyApp.swift in Sources */,
 				F9F15B1F2C7FC76F00B37A82 /* Character.swift in Sources */,

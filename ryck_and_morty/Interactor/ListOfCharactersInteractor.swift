@@ -8,11 +8,9 @@
 import Foundation
 import RickAndMortyAPI
 
-protocol ListOfCharactersInteractorProtocol: AnyObject {
-    func fetchCharacters()
-}
 
-class ListOfCharactersInteractor: ListOfCharactersInteractorProtocol {
+
+class ListOfCharactersInteractor {
     private var characters: [Character] = []
     private var page: Int = 0
     weak var presenter: ListOfCharactersPresenter?

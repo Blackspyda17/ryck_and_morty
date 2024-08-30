@@ -13,10 +13,6 @@ struct CharacterCell: View {
     let character : Character
     
     var body: some View {
-//        NavigationLink(
-//            destination: CharacterDetail(character: character),
-//            label: {
-
                 VStack(alignment:.leading) {
                     AsyncImage(url: character.image)
                         .cornerRadius(15)
@@ -26,9 +22,6 @@ struct CharacterCell: View {
                         .truncationMode(.tail)
                         .padding(.trailing,15)
                         .foregroundColor(Color(.label))
-                    
                 }
-//            })
-        
     }
 }

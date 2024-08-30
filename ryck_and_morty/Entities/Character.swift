@@ -8,7 +8,7 @@
 import Foundation
 
 
-enum Status : String, Decodable, Prettifiable {
+enum Status : String {
     case alive = "Alive"
     case dead = "Dead"
     case unknown
@@ -25,7 +25,7 @@ enum Status : String, Decodable, Prettifiable {
     }
 }
 
-enum Gender : String, Decodable, Prettifiable {
+enum Gender : String {
     
     case male = "Male"
     case female = "Female"
