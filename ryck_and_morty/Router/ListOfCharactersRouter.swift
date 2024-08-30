@@ -19,11 +19,17 @@ class ListOfCharactersRouter: ListOfCharactersRouterProtocol {
         let view = ListOfCharactersView(viewModel:viewModel)
         let interactor = ListOfCharactersInteractor()
         let presenter = ListOfCharactersPresenter(view: viewModel)
+        let router = ListOfCharactersRouter()
         
         viewModel.presenter = presenter
         presenter.interactor = interactor
+        presenter.router = router
         interactor.presenter = presenter
         return view
+    }
+    
+    func makeCharacterDetailsView(character: Character) -> some View {
+        return CharacterDetailsView(character: character)
     }
 }
 

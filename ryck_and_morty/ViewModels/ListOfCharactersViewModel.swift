@@ -7,9 +7,8 @@
 
 
 import SwiftUI
-import RickAndMortyAPI
 
-class ListOfCharactersViewModel: ObservableObject, ListOfCharactersViewProtocol {
+class ListOfCharactersViewModel: ObservableObject {
     @Published var characters: [Character] = []
     
     var presenter : ListOfCharactersPresenter?
@@ -27,4 +26,5 @@ class ListOfCharactersViewModel: ObservableObject, ListOfCharactersViewProtocol 
     func fetchManyCharacters(){
         presenter?.fetchCharacters()
     }
+    
 }
